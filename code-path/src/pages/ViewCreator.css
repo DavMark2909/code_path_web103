@@ -1,0 +1,148 @@
+.view-creator {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-link {
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.back-link:hover {
+  color: #333;
+}
+
+.creator-profile {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  margin: 0 0 15px 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.profile-description {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-actions button,
+.profile-actions a {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.visit-channel-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.visit-channel-btn:hover {
+  background-color: #45a049;
+}
+
+.edit-profile-btn {
+  background-color: #FF9800;
+  color: white;
+}
+
+.edit-profile-btn:hover {
+  background-color: #F57C00;
+}
+
+.delete-profile-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-profile-btn:hover {
+  background-color: #d32f2f;
+}
+
+.creator-not-found {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.back-btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-name {
+    font-size: 2em;
+  }
+  
+  .profile-actions {
+    flex-direction: column;
+  }
+  
+  .view-creator {
+    padding: 10px;
+  }
+  
+  .creator-profile {
+    padding: 20px;
+  }
+}
